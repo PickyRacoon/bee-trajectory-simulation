@@ -1,2 +1,12 @@
-...
-
+- stworzenie modelu przedstawiającego ruch pszczoły podczas poszukiwania pokarmu
+- zastosowanie systemu wieloagentowego, w którym każda pszczoła jest niezależnym agentem
+- określenie parametrów agenta, takich jak: pozycja, kierunek ruchu, prędkość lotu, poziom energii
+- zdefiniowanie środowiska symulacji zawierającego ul, źródła pokarmu (kwiaty), ewentualne przeszkody
+- opracowanie zasad ruchu pszczoły 
+- modelowanie procesu wykrywania źródeł pokarmu przez pszczoły (jaki promień wykrycia zapachu przez pszczołę)
+- określenie zachowania pszczoły po znalezieniu pokarmu (powrót do ula, zapamiętanie lokalizacji)
+- możliwość interakcji pomiędzy agentami (przekazywania informacji o znalezionych źródłach pokarmu, wymiana informacji w trakcie lotu czy już w ulu)
+- analiza trajektorii ruchu pszczół oraz efektywności poszukiwania pokarmu w symulowanym środowisku
+- możliwość zmiany parametrów symulacji (liczba agentów, liczba źródeł pokarmu), skalowalność modelu
+- moment zakończenia symulacji (po zebraniu całego nektaru, po upływie określonego czasu)
+- każdy kwiat z określoną ilością nektaru i czasem regeneracji
