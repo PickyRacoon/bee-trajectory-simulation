@@ -43,7 +43,7 @@ Model ruchu pszczół.&#x20;
 Zbieraczki wykonują cykl:&#x20;
 
 
-![](app://api/attachments/416D43A8-AC82-4486-BB74-D1B24055253E)
+![ruch_pszczol](zdj/ruch_pszczol.png)
 
 ​
 
@@ -77,7 +77,7 @@ decyzje = np. czy lecieć po nektar
 
 Prawdodpobieństwo ruchu w pionie
 
-![](app://api/attachments/7EC7FF3D-49F7-4219-A8E6-319B1DD3D7B4)
+![ruch_pionowy](zdj/ruch_pionowy.png)
 
 gdzie:
 
@@ -88,7 +88,7 @@ dH = odległość pozioma do celu
 
 Prawodpodbieństwo ruchu w poziomie
 
-![](app://api/attachments/64BAC840-1047-4E6C-B33C-6F4303ED9AD5)
+![ruch_poziomy](zdj/ruch_poziomy.png)
 
 epsilon jako - błąd nawigacji pszczoły - tutaj również uwzględnienie, że pestycyty zwiększają bład (ciekawe :))&#x20;
 
