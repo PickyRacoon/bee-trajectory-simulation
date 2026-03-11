@@ -95,6 +95,24 @@ epsilon jako - błąd nawigacji pszczoły - tutaj również uwzględnienie, że 
 
 Analiza raczej “recruits” - pszczoły lecą do znanego źródła wtedy jest ruch _biased random walk_.&#x20;
 
+
+
+
+
+# Automatic detection and decoding of honey bee waggle dances
+
+Cel: Jak utomatycznie odczytać z filmu informację o tym, gdzie znajduje się źródło pożywienia wskazywane przez pszczołę?
+
+Pszczoła w tańcu przekazuje wektor lotu: direction + distance
+Waggle dance ma część zwaną waggle run.
+- Kąt tego ruchu względem pionu plastra oznacza kierunek względem słońca.
+Schemat: kąt tańca = kąt do źródła pożywienia względem słońca
+
+Przykład:
+
+taniec 30° w prawo od pionu
+→ leć 30° na prawo od kierunku słońca
+
 Kluczowe wnioski :
 
 * stworzenie modelu przedstawiającego ruch pszczoły podczas poszukiwania pokarmu
