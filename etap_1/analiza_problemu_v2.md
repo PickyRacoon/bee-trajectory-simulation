@@ -6,21 +6,13 @@ Cel:&#x20;
 
 wpływ długotrwałego narażenia na pestycydy na zdolności nawigacyjne zbiraczy, przede wszystkim w celu zilustrowania użycia Bee++.&#x20;
 
-​
-
 Kolonie pszczół → przykład systemu złożonego, gdzie globalne zachowanie roju powstaje z działań wielu pojedynczych osobnikó∑..&#x20;
-
-​
 
 Dlaczego ważne?
 
 * pszczoły są kluczowymi zwierzętami dla zapylania roślin,
 * spadek liczby pszczół stanowi problem ekologiczny,
-* badanie ich zachowania w naturze jest trudne.&#x20;
-
-​
-
-​
+* badanie ich zachowania w naturze jest trudne.&#x20;​
 
 Problem badawczy:&#x20;
 
@@ -31,17 +23,9 @@ Problem badawczy:&#x20;
 
 Czemu trudne w życiu do zrealizowania? W ulu znajdują się dziesiątki tysięcy pszczół, zachowania ich są dynamiczne oraz ŚRODOWISKO ZMIENIA SIĘ W CZASIE.
 
-​
-
-​
-
 Bee++ - symualtor agentowy, tj. każda pszczoła jest agentem, posiada własny stan i zachowanie, środowisko jest modelowane przestrzennie.&#x20;
 
-​
-
 Bee++ symuluje m.in. pszczoły w ulu, pszczoły zbieraczki, kwiaty i źródła nektaru. Każdy element systemu - osobny obiekt w modelu.&#x20;
-
-​
 
 Każda pszczółka ma cechy (rola pszczoły może się zmieniać w trakcie życia):
 
@@ -50,33 +34,14 @@ Każda pszczółka ma cechy (rola pszczoły może się zmieniać w trakcie życi
 * poziom energii,
 * oraz przypsiane zadanie.&#x20;
 
-​
-
-​
-
 Najważniejsze role: opieka nad lawrami (nurse bee), praca w ulu (house bee), zbieranie nektaru (foragers).&#x20;
-
-​
-
-​
 
 **Środowisko - przestrzeń 2D**.&#x20;
 
 Składa się z: ula, źródła nektaru, źródła pyłku, warunków pogodowych. Każde źródlo ma: ilość nektaru oraz lokalizacje.&#x20;
-
-​
-
-​
-
 Model ruchu pszczół.&#x20;
-
 Zbieraczki wykonują cykl:&#x20;
 
-​
-
-​
-
-​
 
 ![](app://api/attachments/416D43A8-AC82-4486-BB74-D1B24055253E)
 
@@ -86,18 +51,10 @@ Zbieraczki wykonują cykl:&#x20;
 2. zbieranie nektaru - po znalezieniu kwiatka pszczoła - zbiera nektar, _**zapamiętuje lokalizację**_.
 3. Powrót do ula - pszczoła wraca do ula z zasobami.
 4. Po powrocie może wykonać _waggle dance - jest to taniec, który przekazuje informacje o kierunku, odległości oraz jakości źródła_. Dzięki niemu inne pszczoły również mogą polecieć w to samo miejsce.
-
 ​
-
-​
-
 Model energetyczny
 
-Lot kosztuje energię pszczół. Jeśli dużo nektaru - kolonia rośnie, mało pożywienia - kolonia słabnie.&#x20;
-
-​
-
-​
+Lot kosztuje energię pszczół. Jeśli dużo nektaru - kolonia rośnie, mało pożywienia - kolonia słabnie.&#x20;​
 
 Bee++ zapisuje wiele danych:
 
@@ -112,18 +69,13 @@ Dzięki temu można analizować:
 * efektywność zbierania pożywienia,
 * wpływ środowiska.
 
-​
-
 agent = pszczoła
 stan = wiek, energia, rola
 decyzje = np. czy lecieć po nektar
 środowisko = ul + kwiaty
 
-​
 
 Prawdodpobieństwo ruchu w pionie
-
-​
 
 ![](app://api/attachments/7EC7FF3D-49F7-4219-A8E6-319B1DD3D7B4)
 
@@ -138,23 +90,10 @@ Prawodpodbieństwo ruchu w poziomie
 
 ![](app://api/attachments/64BAC840-1047-4E6C-B33C-6F4303ED9AD5)
 
-
-
-​
-
-​
-
 epsilon jako - błąd nawigacji pszczoły - tutaj również uwzględnienie, że pestycyty zwiększają bład (ciekawe :))&#x20;
 
-​
-
-​
 
 Analiza raczej “recruits” - pszczoły lecą do znanego źródła wtedy jest ruch _biased random walk_.&#x20;
-
-​
-
-​
 
 Kluczowe wnioski :
 
