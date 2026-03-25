@@ -20,15 +20,15 @@ Dane tego typu stanowią podstawę do budowy i walidacji modeli symulacyjnych op
 
 **Analiza problemu:**
 
-Celem projektu jest modelowanie ruchu pszczół w strefie wejścia i wyjścia z ula z wykorzystaniem podejścia agentowego.  Dane te zapisane są w postaci plików tekstowych (np. `worker01.txt`, `queen.txt`) i zawierają informacje o czasie detekcji, identyfikatorze pszczoły (ID), jej położeniu w przestrzeni 2D oraz orientacji znacznika.
+Celem projektu jest modelowanie ruchu pszczół w strefie wejścia i wyjścia z ula z wykorzystaniem podejścia agentowego.  Każdy plik z serii `worker*.txt` zawiera zbiór detekcji wielu oznaczonych pszczół zarejestrowanych w wybranych dniach pomiarowych. Pojedynczy rekord odpowiada jednej detekcji i zawiera znacznik czasu, identyfikator pszczoły (ID), pozycję środka znacznika w przestrzeni obrazu oraz jego orientację. Powtarzające się rekordy dla tego samego identyfikatora umożliwią rekonstrukcję krótkich trajektorii ruchu w pobliżu wejścia do ula.
 
 Istotnym ograniczeniem danych jest **brak informacji o pełnych trajektoriach lotu pszczół w środowisku (np. pomiędzy ulem a źródłem pokarmu)**, co uniemożliwia bezpośrednią walidację modeli opisujących cały proces zbierania pokarmu. Z tego względu poponujemy, zeby zakres projektu został ograniczony do modelowania zachowania pszczół w bezpośrednim otoczeniu ula, gdzie dostępne są dane walidacyjne.
 
-Dane te zostały pozyskane z systemu monitoringu wykorzystującego znaczniki fiducjalne (AprilTags) oraz analizę obrazu, co umożliwia śledzenie ruchu poszczególnych pszczół w bezpośrednim otoczeniu wejścia do ula. Na ich podstawie możliwa będzie rekonstrukcja lokalnych trajektorii ruchu oraz analiza aktywności pszczół, w szczególności liczby wejść i wyjść oraz czasu przebywania poza ulem.
+Dane te zostały pozyskane z systemu monitoringu wykorzystującego znaczniki fiducjalne (AprilTags) oraz analizę obrazu, co umożliwia śledzenie ruchu poszczególnych pszczół w bezpośrednim otoczeniu wejścia do ula. 
 
-Istotną cechą danych jest ich lokalny charakter – obejmują one wyłącznie obszar wylotka, bez informacji o dalszym przebiegu lotu pszczół w środowisku. W związku z tym nie będzie możliwe bezpośrednie modelowanie i walidacja pełnych trajektorii foragingu. Zakres projektu zostanie zatem ograniczony do modelowania zachowania pszczół w strefie wejścia i wyjścia z ula.
+Dane mają lokalny charakter – obejmują one wyłącznie obszar wylotka, bez informacji o dalszym przebiegu lotu pszczół w środowisku. W związku z tym nie będzie możliwe bezpośrednie modelowanie i walidacja pełnych trajektorii zbierania pokarmu. 
 
-Dane mają charakter nieciągły w czasie (rejestrowane są dla wybranych dni), co wpłynie na sposób ich analizy. W związku z tym walidacja modelu będzie miała charakter statystyczny i będzie opierać się na agregacji danych w skali dnia.
+Dane mają charakter nieciągły w czasie (rejestrowane są dla wybranych dni), co wpływa na sposób ich analizy. W związku z tym walidacja modelu będzie miała charakter statystyczny i będzie opierać się na agregacji danych w skali dnia.
 
 Dodatkowo, pomimo że w literaturze szeroko opisano mechanizm komunikacji waggle dance, brak odpowiednich danych eksperymentalnych w analizowanym zbiorze uniemożliwia jego bezpośrednią walidację. W związku z tym zdecydoano, ze mechanizm ten nie zostanie uwzględniony jako główny element modelu.
 
