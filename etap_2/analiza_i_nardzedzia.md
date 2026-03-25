@@ -1,7 +1,5 @@
 ## 1. Wstęp 
 
-**Wstęp (wersja robocza):**
-
 Zachowanie pszczół miodnych, w szczególności związane z aktywnością lotną i zbieraniem pokarmu , stanowi przykład złożonego systemu biologicznego, w którym globalne właściwości kolonii wynikają z lokalnych interakcji pojedynczych osobników. Badanie takich systemów w warunkach rzeczywistych jest trudne ze względu na dużą liczbę osobników oraz dynamiczny charakter ich zachowań.
 
 W ostatnich latach rozwinięto systemy umożliwiające automatyczne monitorowanie aktywności pszczół przy wejściu do ula z wykorzystaniem kamer oraz znaczników fiducjalnych (np. **AprilTags**). Systemy tego typu pozwalają na rejestrowanie danych takich jak:
