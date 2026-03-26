@@ -22,7 +22,7 @@ Celem projektu jest modelowanie ruchu pszczół w strefie wejścia i wyjścia z 
 
 Istotnym ograniczeniem danych jest **brak informacji o pełnych trajektoriach lotu pszczół w środowisku (np. pomiędzy ulem a źródłem pokarmu)**, co uniemożliwia bezpośrednią walidację modeli opisujących cały proces zbierania pokarmu. Z tego względu poponujemy, zeby zakres projektu został ograniczony do modelowania zachowania pszczół w bezpośrednim otoczeniu ula, gdzie dostępne są dane walidacyjne.
 
-Dane te zostały pozyskane z systemu monitoringu wykorzystującego znaczniki fiducjalne (AprilTags) oraz analizę obrazu, co umożliwia śledzenie ruchu poszczególnych pszczół w bezpośrednim otoczeniu wejścia do ula. 
+Dane te zostały pozyskane z systemu monitoringu wykorzystującego znaczniki (AprilTags) oraz analizę obrazu, co umożliwia śledzenie ruchu poszczególnych pszczół w bezpośrednim otoczeniu wejścia do ula. 
 
 Dane mają lokalny charakter – obejmują one wyłącznie obszar wylotka, bez informacji o dalszym przebiegu lotu pszczół w środowisku. W związku z tym nie będzie możliwe bezpośrednie modelowanie i walidacja pełnych trajektorii zbierania pokarmu. 
 
