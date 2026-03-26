@@ -80,3 +80,9 @@ Walidacja modelu będzie opierać się na porównaniu wyników symulacji z danym
 
 Porównanie będzie miało charakter statystyczny (np. średnie, rozkłady), co wynika z charakteru dostępnych danych eksperymentalnych.
 
+---
+
+## 6. Bibliografia 
+
+[1] Penaloza-Aponte D, Brandt S, Dent E, Underwood RM, DeMoras B, Bruckner S, López-Uribe MM, Urbina JV. Automated entrance monitoring to investigate honey bee foraging trips using open-source wireless platform and fiducial tags. HardwareX. 2024 Nov 19;20:e00609. doi: 10.1016/j.ohx.2024.e00609. PMID: 39669441; PMCID: PMC11636203.
+
