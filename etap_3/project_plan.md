@@ -10,7 +10,8 @@ Zbiory zostały przyporządkowane do numerów tygodni w roku, po czym dokonano a
 sumowanie wszystkich obserwacji przypadających na dany tydzień. 
 
 ### Dane pogodowe - mean_week.csv
-Dane zawierają informacje pogodowe od 22 do 40 tygodnia roku, aby pokrywały się z danymi ze zbiorów miodu. 
+Dane meteorologiczne zostały pozyskane z najbliższej stacji pogodowej względem Dubnej, zlokalizowanej w Nowym Sączu.
+Zawierają informacje pogodowe od 22 do 40 tygodnia roku, aby pokrywały się z danymi ze zbiorów miodu. 
 Zawierają one takie kolumny z danymi meteorologicznymi jak:
 
 - temp: średnia temperatura powietrza
