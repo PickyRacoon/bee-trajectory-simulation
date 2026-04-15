@@ -24,6 +24,6 @@ Zawierają one takie kolumny z danymi meteorologicznymi jak:
 ### Plan stworzenia symulacji
 W celu opisania zależności pomiędzy warunkami pogodowymi a ilością zbieranego miodu zostanie zbudowany model matematyczny. Dla poszczególnych zmiennych meteorologicznych zostaną dobrane współczynniki określające ich wpływ na wynik - ilość zebranego miodu.
 
-Model zostanie zbudowany na podstawie danych z 5 lat (2019–2023), które będą stanowiły zbiór treningowy. Dane te posłużą do estymacji parametrów modelu.
+Model zostanie zbudowany na podstawie danych z 5 lat (2019–2023), które będą stanowiły zbiór treningowy. Posłużą do estymacji parametrów modelu.
 
 Skuteczność modelu zostanie oceniona na danych pochodzących z dwóch kolejnych lat (2024–2025).
