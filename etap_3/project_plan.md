@@ -27,3 +27,5 @@ W celu opisania zależności pomiędzy warunkami pogodowymi a ilością zbierane
 Model zostanie zbudowany na podstawie danych z 5 lat (2019–2023), które będą stanowiły zbiór treningowy. Posłużą do estymacji parametrów modelu.
 
 Skuteczność modelu zostanie oceniona na danych pochodzących z dwóch kolejnych lat (2024–2025).
+
+Na podstawie tego modelu zostanie stworzony w pythonie system symulacyjny umożliwiający generowanie prognoz ilości miodu dla dowolnego zestawu warunków pogodowych.
