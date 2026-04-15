@@ -1,7 +1,7 @@
-## Model symulacyjny ilości miodu pozyskiwanego z pasieki w zależności od warunków pogodowych 
+## Model symulacyjny ilości miodu pozyskiwanego z pasiek w zależności od warunków pogodowych 
 
 ### Dane z pasieki w miejscowości Dubne - honey.csv
-Dane obejmują 7 lat zbiorów miodu - od 2019 do 2025. Poszczególne lata nie mają identycznych przedziałów czasowych:
+Dane pochodzą z 9 pasiek  należących do jednego właściciela, zlokalizowanych na jednej łące. Każda pasieka liczy około 10 uli, co daje łącznie w przybliżeniu 100 uli objętych analizą. Dane obejmują 7 lat zbiorów miodu - od 2019 do 2025. Poszczególne lata nie mają identycznych przedziałów czasowych:
 
 - początek: koniec czerwca/lipiec
 - koniec: wrzesień
