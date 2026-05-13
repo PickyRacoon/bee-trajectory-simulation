@@ -90,9 +90,9 @@ Tabela 5. Opis zmiennych
 
 Efektywność pszczół
 
-W poprawionej wersji modelu efektywność nie jest liczona przez mnożenie czynników pogodowych, ponieważ jeden bardzo niski czynnik zerował prawie cały wynik.
+W aktualnej  wersji modelu efektywność liczona jest jako:
 
-Zamiast tego zastosowano średnią ważoną:
+
 
 `efficiency = 0.45 × temp_eff  + 0.20 × wind_eff  + 0.25 × rain_eff  + 0.10 × pres_eff`
 
